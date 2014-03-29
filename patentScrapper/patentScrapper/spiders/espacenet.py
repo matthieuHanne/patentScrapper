@@ -13,7 +13,7 @@ class EspacenetSpider(CrawlSpider):
         self.start_urls = ['http://worldwide.espacenet.com/searchResults?compact=false&ST=singleline&query=%s&locale=en_EP&DB=worldwide.espacenet.com' % keywords]
         allowed_domains = ['worldwide.espacenet.com']
         rules = (
-           # Rule(SgmlLinkExtractor(), callback='parse_links', follow=True)
+           # Rule(SgmlLinkExtractor(), callback='parse_links', follow=True) TODO
         )
 
 
@@ -21,28 +21,24 @@ class EspacenetSpider(CrawlSpider):
         sel = Selector(response)
         i = PatentscrapperItem()
         self.x+= 1
-        filename = 'patent'+`self.x`
         open(filename, 'wb').write(response.body)
-        i['bookmark'] = sel.xpath("//div[@id='pagebody']/h3/text()").extract()
-        i['inventors'] = 0
-        i['applicants'] = 0
-        i['classification'] = 0
-        i['applicationNumber'] = 0
-        i['priorityNumbers'] = 0
-        i['published'] = 0
-        i['core'] = 0
+        i['bookmark'] = sel.xpath("//div[@id='pagebody']/h1/text()").extract()
+        i['inventors'] = sel.xpath('//table[@class="tableType3"]/tbody/tr[3]/td/span/text()').extract()
+        i['applicants'] = sel.xpath('//table[@class="tableType3"]/tbody/tr[4]/td/span/text()').extract()
+        #i['classification'] = 0 TODO
+        i['applicationNumber'] = sel.xpath('//table[@class="tableType3"]/tbody/tr[6]/td/text()').extract()
+        i['priorityNumbers'] = sel.xpath('//table[@class="tableType3"]/tbody/tr[7]/td/span/a/text()').extract()
+        #i['published'] = 0 TODO
+        i['core'] = sel.xpath('//div[@class="application article clearfix"]').extract()
 
     def parse(self, response):
         sel = Selector(response)
         links = sel.xpath('//a[@class="publicationLinkClass"]/@href').extract()
-        #for link in links:
-           #yield Request("http://worldwide.com"+link, callback=self.parse_patent)
+        for link in links:
+           yield Request("http://worldwide.com"+link, callback=self.parse_patent)
 
+        #Omg ça bug >.<
         nextPage = sel.xpath('//a[@class="paginationNext"]/@href').extract()
-        print "URL ->    SIZE   " +`len(nextPage)`
-        if type(nextPage) is list:
-            yield Request("http://worldwide.com/"+nextPage[0], callback=self.parse)
-        else:
             yield Request("http://worldwide.com/"+nextPage, callback=self.parse)
 
         #return i
