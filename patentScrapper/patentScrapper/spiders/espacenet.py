@@ -5,14 +5,21 @@ from patentScrapper.items import PatentscrapperItem
 
 class EspacenetSpider(CrawlSpider):
     name = 'espacenet'
-    allowed_domains = ['worldwide.espacenet.com']
-    start_urls = ['http://worldwide.espacenet.com/publicationDetails/biblio?locale=en_EP&II=0&FT=D&CC=BR&DB=worldwide.espacenet.com&NR=PI1103049A2&date=20140304&ND=3&KC=A2&adjacent=true']
 
-    #rules = (
-    #    Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
-    #)
+    def __init__(self, keywords=None, *args, **kwargs):
+        super(EspacenetSpider, self).__init__(*args, **kwargs)
+        self.start_urls = ['http://worldwide.espacenet.com/searchResults?compact=false&ST=singleline&query=%s&locale=en_EP&DB=worldwide.espacenet.com' % keywords]
+        allowed_domains = ['worldwide.espacenet.com']
+        rules = (
+            Rule(SgmlLinkExtractor(allow='publicationLinkClass.*'), callback='parse_links', follow=True),
+        )
+
+    def parse_links(self, response):
+        filename = response.url.split("/")[-2] + "parle_links"
+        open(filename, 'wb').write(response.body)
 
     def parse(self, response):
+        open('brvt', 'wb').write(response.body)
         sel = Selector(response)
         i = PatentscrapperItem()
         i['bookmark'] = sel.xpath("//div[@id='pagebody']/h3/text()").extract()
