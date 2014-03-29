@@ -10,6 +10,6 @@ BOT_NAME = 'patentScrapper'
 
 SPIDER_MODULES = ['patentScrapper.spiders']
 NEWSPIDER_MODULE = 'patentScrapper.spiders'
-
+ITEM_PIPELINES = {'patentScrapper.pipelines.PatentscrapperPipeline': 100 }
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'patentScrapper (+http://www.yourdomain.com)'
