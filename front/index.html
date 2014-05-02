@@ -1,0 +1,43 @@
+<HTML>
+	<head>
+		<title> Locagec</title>
+		<meta name="description" content="Static website">
+		<meta name="author" content="github/matthieuHanne" >
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<link href="./assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="./assets/css/style.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="./assets/ico/favicon.ico">
+        <!--
+        <link href="./assets/css/carousel.css" rel="stylesheet">
+		<link href="app/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="app/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="app/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="app/css/style.css" rel="stylesheet" type="text/css" media="screen">
+		-->
+	</head>
+	<body>
+	</body>
+	<script>
+		(function() {
+			'use strict'
+
+			var script = document.createElement('script');
+			var Config = {
+				host: '.',
+				assets: '.',
+                apiUrl: '.',
+			}
+			script.addEventListener('load', function () {
+				require.appConfig = Config;
+			});
+			script.setAttribute('src', Config.host + '/lib/require.js');
+			script.setAttribute('data-main', Config.host + '/app/main');
+			document.head.appendChild(script);
+		}).call(window);
+	</script>
+</HTML>

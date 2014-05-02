@@ -1,0 +1,50 @@
+<nav id="nav" class="navigation" role="navigation">
+
+<h2> Procedure d'export </h2>
+</br>
+<p>
+	C'est mieux pour les serveur de nos amis inpi&co, choisir un export nous evite des les spammer.
+	Nos ips on deja ete bannis 2 3 fois... Pour l'instant, il est seulement possible d'exporter la 
+	base complete en filtrant les attributs des noeuds. Mais nous comptons mettre en place un system de 
+	recherche plus complexe (a voir en reunion !)
+</p>
+
+<form role="form" action="#">
+<h3>Mots clefs de recherches</h3>
+	<div class="form-group">
+		<div class="row keywords">
+			<div class="col-xs-3"><input type="text" class="form-control keyword" placeholder="Mots" disabled></div>
+			<div class="col-xs-3"><input type="text" class="form-control keyword" placeholder="Mots" disabled></div>
+			<div class="col-xs-3"><input type="text" class="form-control keyword" placeholder="Mots" disabled></div>
+			<div class="col-xs-3"><input type="text" class="form-control keyword" placeholder="Mots" disabled></div>
+		</div>
+		</br>
+		<button type="button" class="btn btn-block btn-primary add-keyword"><span class="glyphicon glyphicon-plus"></span></button>
+		</br>
+		</br>
+	</div>
+	<div class="row">
+<h3>Attributs pour les brevets </h3>
+		<div class="col-md-8">
+			<div class="checkbox">
+				<label><input class="param" checked="checked" type="checkbox" value="i">Les inventeurs </label>
+			</div>
+			<div class="checkbox">
+				<label><input class="param" checked="checked" type="checkbox" value="d">Les demandeurs</label>
+			</div>
+			<div class="checkbox">
+				<label><input class="param" checked="checked" type="checkbox" value="c">Classifications international</label>
+			</div>
+			<div class="checkbox">
+				<label><input class="param" checked="checked" type="checkbox" value="a"> N. abrege pour</label>
+			</div>
+			<div class="checkbox">
+				<label><input class="param" checked="checked" type="checkbox" value="k">Mots clefs</label>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<button template="targets"  type="submit" class="btn btn-primary btn-lg start-search">Export</button>
+		</div>
+	</div>
+</form>
+</nav>
