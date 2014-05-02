@@ -32,8 +32,7 @@ define(['backbone'],
 
 						$.ajax({
 							type: 'POST',
-							//url: App.config.apiUrl+'/export',
-							url: 'bessifcrawler.no-ip.biz:8080/',
+							url: App.config.apiUrl+'/patentapi/export',
 							crossDomain: true,
 							data: JSON.stringify({keywords: keys, args: param, target: bdd }),
 							contentType: 'application/json',
@@ -57,7 +56,7 @@ define(['backbone'],
 						var bdd='';
 					$('.bdd').each(function(){if($(this).prop('checked')) bdd +=$(this).val()})
 
-						$.post(App.config.apiUrl+'/crawl',{'keywords[]': keys, 'args': param, 'target': bdd })
+						$.post(App.config.apiUrl+'/patentapi/crawl',{'keywords[]': keys, 'args': param, 'target': bdd })
 						.done(function(responseData){
 							App.Router.navigate('dashboard', {trigger: true})
 						})

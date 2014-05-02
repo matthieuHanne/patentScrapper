@@ -10,9 +10,13 @@ import pdb
 
 app = Flask(__name__)
 
-#@app.route('/')
-#def index():
-#	return 'Finally running from inside the environment with a Flask app!'
+@app.route('/patentapi')
+def index():
+	return 'Finally api!'
+
+@app.route('/patentapi/test')
+def test():
+	return 'test api!'
 
 def crossdomain(origin=None, methods=None, headers=None,
                 max_age=21600, attach_to_all=True,
@@ -66,10 +70,11 @@ def crawl():
 	scrap_bessif_launcher.Scrap(mail_addr,export_config,keywords,databases)
 	return 'test:)'
 
-@app.route('/', methods=['POST'])
+@app.route('/patentapi/export', methods=['POST'])
 @crossdomain(origin='*')
 def export():
-	export_config = request.form['export_config'].split()
+	export_config = request.json['args'].encode('ascii','ignore')
+	print export_config 
 	return json.dumps(scrap_bessif_launcher.GetGlobalDatabase(export_config,1))
 
 @app.route('/number', methods=['POST'])
