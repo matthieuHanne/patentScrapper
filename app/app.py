@@ -74,8 +74,10 @@ def crawl():
 @crossdomain(origin='*')
 def export():
 	export_config = request.json['args'].encode('ascii','ignore')
-	print export_config 
-	return json.dumps(scrap_bessif_launcher.GetGlobalDatabase(export_config,1))
+	mail = request.json['mail'].encode('ascii','ignore')
+	print export_config
+	print mail 
+	scrap_bessif_launcher.GetGlobalDatabase(export_config,mail)
 
 @app.route('/number', methods=['POST'])
 def getnumber():

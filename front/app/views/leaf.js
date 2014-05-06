@@ -28,13 +28,14 @@ define(['backbone'],
 					$('.param').each(function(){if($(this).prop('checked')) param +=$(this).val()})
 						var bdd='';
 					$('.bdd').each(function(){if($(this).prop('checked')) bdd +=$(this).val()})
+					
 
 
 						$.ajax({
 							type: 'POST',
 							url: App.config.apiUrl+'/patentapi/export',
 							crossDomain: true,
-							data: JSON.stringify({keywords: keys, args: param, target: bdd }),
+							data: JSON.stringify({keywords: keys, args: param, mail: this.$el.find('#mail').val()}),
 							contentType: 'application/json',
 							success: function(responseData, textStatus, jqXHR) {
 								var value = responseData.someKey;

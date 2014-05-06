@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*- 
 import smtplib
-from urllib2 import Request, urlopen, URLError, HTTPError
+
 import urllib2
 import os.path
 import os
@@ -50,8 +50,6 @@ def send_mail(addr , keywords,number_file):
 		smtp.sendmail(send_from, send_to, msg.as_string())
 		smtp.close()
 		print 'successfully sent the mail'
-		os.remove('temp/temp_node_'+str(number_file)+'.csv')
-		os.remove('temp/temp_edge_'+str(number_file)+'.csv')
 	except:
 		print "failed to send mail"
 

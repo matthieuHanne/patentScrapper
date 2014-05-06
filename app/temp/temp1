@@ -1,0 +1,1147 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+	
+
+	
+	    
+	    
+	        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	    
+    
+
+	
+		<meta name="robots" content="noindex,nofollow" />
+	
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="keywords" content="gratuit, Brevets,  l´information brevets, Documents de Brevets En ligne, espacenet, espacenet, Base de données, inventions, inventeur, innovation, industrie, idées"/>
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css"/>
+    
+    <meta http-equiv="content-language" content="fr" />
+
+    <title>Espacenet -
+		
+		
+			
+			
+				
+					vue des résultats</title>
+
+    <link href="/5_8_15_10/css/cssEpo.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="/5_8_15_10/css/cssSitemap.css" media="screen" rel="stylesheet" type="text/css"/>
+
+    <link href="/5_8_15_10/css/cssJQuery.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="/5_8_15_10/css/espacenet.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="/5_8_15_10/images/favicon.ico" rel="favicon"/>
+
+    <link href="/5_8_15_10/css/cssPrint.css" type="text/css" rel="stylesheet" media="print"/>
+    <link href="/5_8_15_10/css/cssPrintLayout.css" type="text/css" rel="stylesheet"
+          media="print"/>
+
+    <link href="/5_8_15_10/css/espacenetPrint.css" media="print" rel="stylesheet" type="text/css"/>
+
+    <!--[if IE 9]>
+    <link href="/5_8_15_10/css/css_IE9.css" media="all" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--[if IE 8]>
+    <link href="/5_8_15_10/css/css_IE8.css" media="all" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--[if IE 7]>
+    <link href="/5_8_15_10/css/css_IE7.css" media="all" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--[if IE 6]>
+    <link href="/5_8_15_10/css/css_IE6.css" media="all" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--[if IE]>
+    <link href="/5_8_15_10/css/css_IE.css" media="all" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+
+    
+
+  <link href="/5_8_15_10/css/jquery-ui.custom.css" media="screen" rel="stylesheet" type="text/css"/>
+	
+	<link href="/5_8_15_10/opensearch.xml" rel="search" type="application/opensearchdescription+xml" 
+              title="espacenet searchplugin"/>
+              
+    <script type="text/javascript">
+        //<![CDATA[
+
+        var scriptStyles = document.createElement('link');
+        scriptStyles.rel = 'stylesheet';
+        scriptStyles.type = 'text/css';
+        scriptStyles.href = '/5_8_15_10/css/dyn.css';
+        scriptStyles.media = 'all';
+        if (head = document.getElementsByTagName('head')[0]) {
+            head.appendChild(scriptStyles);
+        }
+        //]]>
+    </script>
+    
+    
+    <script type="text/javascript" src="/dwr/util.js"></script>
+
+    <script type="text/javascript" src="/5_8_15_10/javascript/jquery.js"></script>
+    <script type="text/javascript" src="/5_8_15_10/javascript/jquery.jsonp-2.1.4.js"></script>
+    <script type="text/javascript" src="/5_8_15_10/javascript/jquery-ui.custom.min.js"></script>
+    <script type="text/javascript" src="/5_8_15_10/javascript/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/5_8_15_10/javascript/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/5_8_15_10/javascript/jquery.expandableinput.js"></script>
+    <script type="text/javascript" src="/5_8_15_10/javascript/jquery.download.js"></script>
+    <!--[if IE]>
+    <script type="text/javascript" src="/5_8_15_10/javascript/jquery.bgiframe.js"></script><![endif]-->
+    <script type="text/javascript" src="/5_8_15_10/scripts/util20081010.js"></script>
+    <script type="text/javascript" src="/5_8_15_10/javascript/blockUI.js"></script>
+	<script type="text/javascript" src="/5_8_15_10/javascript/xdm.js"></script>
+			
+    <!--[if IE 7]>
+    <script type="text/javascript" conditional="IE 7" src="/5_8_15_10/javascript/IE7.js"></script><![endif]-->
+    <script type="text/javascript" src="/5_8_15_10/javascript/iutil.js"></script>
+    <script type="text/javascript" src="/5_8_15_10/javascript/accordion.js"></script>
+    <script type="text/javascript" src="/5_8_15_10/javascript/main.js"></script>
+    <script type="text/javascript" src="/5_8_15_10/javascript/espacenet.js"></script>
+    
+    <script type="text/javascript" src="/5_8_15_10/scripts/espacenet.utils.js"></script>
+
+    <script type="text/javascript" src="/5_8_15_10/scripts/browser_all.js"></script>
+    <!--[if IE]>
+    <script type="text/javascript" conditional="IE" src="/5_8_15_10/scripts/browser_IE.js"></script><![endif]-->
+ 	
+ 	<script type="text/javascript" src="/5_8_15_10/javascript/splashpopup.js"></script>
+ 	
+ 	
+ 	<script type="text/javascript">
+            $(document).ready(function() {
+                if($("#epoTranslateLayer")) {
+                	showSplashPopup("false");
+                }
+            });
+    </script>
+    
+    
+        
+    
+
+</head>
+
+<body class="present" onunload="doPageUnload();">
+
+<a href="#page" id="pageLinkId" tabindex="-1" accesskey="s"></a>
+
+<div id="page" class="pageWrap printGrid screenWide">
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="printLogo printIt">                 
+    <img src="/images/logo_fr_FR.gif" alt="Logo" />
+    <h1>Espacenet</h1>
+</div>
+
+<div class="epoHeader">
+    <div id="epoHeader" class="clearfix">
+        
+
+        
+        
+            
+        
+        <a id="epoLogo" title="Link to EPO Homepage" name="epoLogo" href="http://www.inpi.fr"><img alt="Logo European Patent Office" src="/images/logo_fr_FR.gif" /></a>
+        <div id="epoHeaderCenter">
+      <div id="espacenetLogoTitle"><span>Espace</span>net</div>
+      <div id="espacenetLogoSubTitle">Recherche sur les brevets</div>
+    </div>
+
+        <div id="epoHeaderMetaNav">
+            <ul class="modLanguageNavi clearfix">
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                
+                
+               
+                    
+                   
+                   
+                  
+                    
+                     
+                  
+                  
+                  
+                      
+                   
+                     
+                   <li class="last">
+                    <a title="Deutsch auswählen" href="/searchResults;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?locale=fr_FR&amp;compact=false&amp;ST=singleline&amp;query=screen+multitouch+table&amp;DB=worldwide.espacenet.com" class="sel" > Français</a>
+                   </li>
+                  
+                   
+               
+            </ul>
+
+            <ul class="modServiceNavi clearfix">                  
+                  
+                <li class="navElem contact  "><a href="mailto:espacenet@inpi.fr">Contact</a></li>
+            </ul>
+            
+            <div class="noScript modFlyout twoColumn">
+                <div id="flyoutBodyId" class="flyoutBody">
+                    <div class="flyoutLine"></div>
+                     <a href="#"
+                        id="changeCountryLinkId"
+                        onkeydown="if (event.keyCode==$.ui.keyCode.ENTER){handleOpenCloseServiceMenu(document.getElementById('flyoutBodyId'));}"
+                        class="flyoutLink">Changer le pays</a>
+                        <ul class="epoMenu twoColumn">
+<li class="odd spacer">&nbsp;</li>
+<li class="even spacer">&nbsp;</li>
+<li class="odd first">
+<a class="ext" href="http://www.epo.org/searching/free/espacenet.html">Allemagne</a>
+</li>
+<li class="even first">
+<a class="ext" href="http://at.espacenet.com/">Autriche</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://be.espacenet.com/">Belgique</a>
+</li>
+<li class="even">
+<a class="ext" href="http://bg.espacenet.com/">Bulgarie</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://cy.espacenet.com/">Chypre</a>
+</li>
+<li class="even">
+<a class="ext" href="http://hr.espacenet.com/">Croatie</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://dk.espacenet.com/">Danemark</a>
+</li>
+<li class="even">
+<a class="ext" href="http://es.espacenet.com/">Espagne</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=ee_EE">Estonie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://ea.espacenet.com/">Organisation eurasienne des brevets</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://fi.espacenet.com/">Finlande</a>
+</li>
+<li class="even">
+<a class="ext" href="http://fr.espacenet.com/">France</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://ru.espacenet.com/">Russie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://gr.espacenet.com/">Grèce</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://hu.espacenet.com/">Hongrie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://ie.espacenet.com/">Irlande</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://is.espacenet.com/">Islande</a>
+</li>
+<li class="even">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=it_IT">Italie</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://lp.espacenet.com/">Latipat</a>
+</li>
+<li class="even">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=lv_LV">Lettonie</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://lt.espacenet.com/">Lituanie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://lu.espacenet.com/">Luxembourg</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=fr_MC">Monaco</a>
+</li>
+<li class="even">
+<a class="ext" href="http://nl.espacenet.com/">Pays-Bas</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://pl.espacenet.com/">Pologne</a>
+</li>
+<li class="even">
+<a class="ext" href="http://pt.espacenet.com/">Portugal</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://ro.espacenet.com/">Roumanie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://gb.espacenet.com/">Royaume-Uni</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://sk.espacenet.com/">Slovaquie</a>
+</li>
+<li class="even">
+<a class="ext" href="http://si.espacenet.com/">Slovénie</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=fr_CH">Suisse</a>
+</li>
+<li class="even">
+<a class="ext" href="http://se.espacenet.com/">Suède</a>
+</li>
+<li class="odd">
+<a class="ext" href="http://worldwide.espacenet.com/?locale=cz_CZ">Tchéquie</a>
+</li>
+<li class="even last">
+<a class="ext" href="http://tr.espacenet.com/">Turquie</a>
+</li>
+</ul>
+
+                    <div class="flyoutSpacer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+	resetServiceMenu(document.getElementById('flyoutBodyId'));
+</script>
+    
+
+
+
+
+
+
+
+
+
+<div class="modAppFlyoutNavi noScript noPrint">
+    <ul class="lvl1ul clearfix">
+        <li class="lvl1li">
+            <a class="leftArrow" href="http://www.epo.org/searching/free/espacenet.html" >A propos d'Espacenet</a>
+        </li>
+        <li class="lvl1li">
+            <a class="hasSubMenu sel" href="#" onclick="handleOpenCloseMenu(this.parentNode)">Services en ligne de l'OEB</a>
+            <div class="lvl2ul epoMenu">
+<ul class="epoGrpList epoGrpLeft">
+        <li class="grpTitle">
+<a>Searching for patents</a>
+</li>
+        <li>
+<a class="grpLink" href="http://ops.epo.org">Open patent services</a>
+</li>
+        <li>
+<a class="grpLink" href="https://register.epo.org/espacenet/regviewer?lng=fr">European Patent Register</a>
+</li>
+        <li>
+<a class="grpLink" href="http://www.epo.org/patents/patent-information/european-patent-documents/publication-server.html">European publication server</a>
+</li>
+        <li>
+<a class="grpLink" href="http://www.epo.org/searching/subscription/gpi.html">Global patent index</a>
+</li>
+    </ul>
+</div>
+
+        </li>
+    </ul>
+</div>
+
+
+    <div id="epoNavigation" class="epoNavigation">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modAppNav noScript clearfix">
+    <ul>
+        
+  
+        
+           
+           
+               <li class="bendr">
+                      <a href="http://fr.espacenet.com?locale=fr_FR" accesskey="a">Rechercher</a>
+                  </li>
+           
+        
+           
+           
+            
+            
+            
+                
+                    
+                        <li class="bendractive"><a href="/searchResults?DB=worldwide.espacenet.com&amp;ST=singleline&amp;compact=false&amp;locale=fr_FR&amp;query=screen+multitouch+table" accesskey="b">Liste de résultats</a></li>
+                    
+                    
+                
+            
+        
+           
+           
+           
+           <li class="bendr"><a id="menuPnStar" class="ptn" href="http://worldwide.espacenet.com/mydocumentslist?submitted=true&amp;locale=fr_FR" accesskey="c">Ma liste de brevets&nbsp;(<span id="menuPnCount"></span>)</a></li>
+       
+           
+           <li class="bendr"><a href="/queryHistory?locale=fr_FR" accesskey="d">Historique des requêtes</a></li>
+       
+        <li class="spacer"></li>
+        
+        
+        <li class="bendl"><a href="/settings?locale=fr_FR" accesskey="e">Paramètres</a></li>
+        
+        <li class="bendl last">
+           <a href="/help?locale=fr_FR&amp;method=handleHelpTopic&amp;topic=index" accesskey="f">Aide</a>
+       </li>
+    </ul>
+</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#skipToMainNavigationAnchor" id="epoBreadcrumbsId" tabindex="-1" accesskey="m"></a>
+<ul style="width:0px;height:0px;" id="skipToMainNavigationAnchor"></ul>
+
+    <ul id="epoBreadcrumbs">  
+       
+       
+	       
+	           
+	           
+	               
+	                   <li class="firstChild">
+		                                 
+		                       
+		                           <a id="breadcrumb0" href="/singleLineSearch?DB=worldwide.espacenet.com&amp;REF=yes&amp;ST=singleline&amp;bcId=0&amp;compact=false&amp;locale=fr_FR&amp;query=screen+multitouch+table">Reformuler votre recherche</a>
+		                       
+		                       
+		                   
+	                   </li>
+	               
+	                   <li>
+		                                 
+		                       
+		                       
+		                           <span id="breadcrumb1">Résultats</span>
+		                       
+		                   
+	                   </li>
+	               
+	           
+	       
+	   
+	   
+	   
+    </ul>   
+
+
+    </div>
+
+    <div id="epoContentLeft">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="epoContentNav"> 
+  
+    <li>
+        
+        
+        
+    
+        
+            
+          
+                <a href="http://fr.espacenet.com?locale=fr_FR" accesskey="1">SmartSearch/Accueil</a>
+          
+        
+    </li>
+    
+    <li>
+  		
+  		
+  		
+
+	  	
+	  		
+	  	  
+	  	 		<a href="http://fr.espacenet.com/advancedSearch?locale=fr_FR" accesskey="3">Recherche avancée</a>
+	  	  
+	  	
+    </li>
+    
+	
+	  <li>
+	  		
+    		  
+        
+	  		  
+        
+	  	
+
+  		
+  		
+	  	
+	  	
+	  		
+	  	  
+	  	 		<a href="/classification?locale=fr_FR" accesskey="5">Recherche dans la Classification</a>
+	  	  
+	  	
+    </li>  
+	
+	
+	
+	
+
+</ul> 
+
+<div class="clearerRight">&nbsp;</div>
+        	
+ 
+
+
+
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+<div class="epoAccordionContainer">
+    <div class="dijitContainer dijitAccordionContainer dijitLayoutContainer">
+        <div class="dijitAccordionTitle"  id="dijitAccordionTitleId6">
+            <a onclick="return false;" id="dijitAccordionLinkId6" href="#" class="dijitAccordionLink">
+            <span class="dijitInline dijitAccordionArrow"></span>
+            <img src="/images/blank.gif" alt="" />
+            <span class="dijitAccordionText">Aide rapide</span>
+        </a></div>
+      <div class="dijitContentPane dijitAccordionContainer-child dijitAccordionContainer-dijitContentPane">
+          
+             <ul>
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.1&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, cliquez sur l&#039;icône RSS pour transformer l&#039;URL de la liste de résultats en flux accessible à partir du client RSS installé sur votre ordinateur. Chaque clic crée un nouveau flux RSS." class="int">Puis-je m'abonner à un flux RSS sur la liste de résultats ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.2&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Le lecteur RSS vérifie régulièrement le flux auquel vous vous êtes abonné (URL), télécharge toutes les mises à jour trouvées et affiche une interface utilisateur qui vous permet de contrôler et de lire les flux." class="int">Comment le lecteur RSS intervient-il au niveau de la liste de résultats ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.3&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui. Toutes les listes (&#034;Ma liste de résultats&#034;, etc...) peuvent être exportées au format CSV dans Excel. Il suffit de cliquer &#034;Exporter&#034; puis enregistrer." class="int">Puis-je exporter cette liste de résultats ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.4&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Il n&#039;est pas toujours possible, immédiatement après la recherche, de connaître exactement le nombre de résultats. Une estimation est alors indiquée, en règle générale légèrement supérieure au nombre exact." class="int">Pourquoi le nombre de résultats est-il parfois « approximatif » ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.5&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Ce nombre de 500 a été limité volontairement. Si vos résultats sont trop nombreux, vous devez affiner votre recherche." class="int">Pourquoi la liste de résultats affiche-t-elle seulement 500 réponses ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.6&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the highlighting by selecting or deselecting the relevant box under the Settings tab." class="int">Can I deactivate the highlighting?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.7&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Désormais, espacenet n&#039;affiche qu&#039;un seul document par jeu d&#039;équivalents, évitant ainsi d&#039;obtenir des doublons dans la liste de résultats." class="int">Pourquoi ai-je parfois moins de résultats qu'avec l'ancien espacenet ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.8&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, vous pouvez trier la liste de résultats par date de mise à jour, date de priorité, nom d&#039;inventeur, nom de déposant et par code de classification ECLA dans la limite de 500 documents trouvés." class="int">Puis-je trier cette liste de résultats ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.9&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Un document XP est un document de la littérature non brevet qui a été classé et/ou cité dans un rapport de recherche effectué par l&#039;OEB." class="int">Qu'est-ce qu'un document XP ?</a></li>
+                 
+              
+                  
+                  
+                  
+                  
+              
+                  
+                  
+              
+                  
+                  
+                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.10&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the query history by selecting or deselecting the relevant box under the Settings tab." class="int">Can I save my query?</a></li>
+                 
+              
+              </ul>
+          
+      </div>
+      
+         <div class="dijitAccordionTitle" id="dijitAccordionTitleId5">
+<a onclick="return false;" id="dijitAccordionLinkId5" href="#" class="dijitAccordionLink">
+<span class="dijitInline dijitAccordionArrow"> </span>
+<img style="vertical-align: middle;" src="/images/blank.gif" alt=""/>
+<span class="dijitAccordionText">Liens utiles</span>
+</a>
+</div>
+<div class="dijitContentPane dijitAccordionContainer-child dijitAccordionContainer-dijitContentPane">
+<ul>
+<li>
+            <a class="int" href="http://application.epo.org/wbt/espacenet/assistant.php?lg=fr" onclick="return showAssist(this.href,this.target)" target="assist">L’Assistant d’Espacenet</a>
+        </li>
+</ul>
+</div>
+
+      
+  </div>
+</div>
+
+
+<div id="cart"></div>
+
+<script type="text/javascript">
+    //5 - relatedLinks, 6 - quick help
+    $('#dijitAccordionTitleId5').bind('mouseover', function() {onLinkOver(5);});
+    $('#dijitAccordionTitleId5').bind('mouseout', function() {onLinkOut(5);});
+    $('#dijitAccordionTitleId6').bind('mouseover', function() {onLinkOver(6);});
+    $('#dijitAccordionTitleId6').bind('mouseout', function() {onLinkOut(6);});
+</script>
+
+    </div>
+
+    <div class="epoContentWrap clearfix">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    // some required message constants
+    var LOADING_MESSAGE = 'Veuillez patienter, la recherche est en cours';
+    var ERROR_DURING_REQUEST_MESSAGE = '???ErrorDuringRequest???';
+    var TRY_AGAIN_MESSAGE = '???TryAgain???';
+    var CLOSE_MESSAGE = 'Fermer';
+    var PAGE_MESSAGE = 'page';//'Page';
+</script>
+<script type="text/javascript" src="/5_8_15_10/javascript/jquery.cookie.js"></script>
+<script type="text/javascript" src="/5_8_15_10/scripts/resultListFeatures.js"></script>
+<script type="text/javascript" src="/5_8_15_10/scripts/downloadPDF.js"></script>
+
+
+
+<div id="pagebody">
+
+    <a name="Content"></a>
+    
+    
+
+
+    
+    
+    
+    
+
+    
+        
+        
+            <h1>
+                LISTE DES RESULTATS
+                
+                    <a href="/websyndication/searchFeed?DB=worldwide.espacenet.com&amp;ST=singleline&amp;compact=false&amp;locale=fr_FR&amp;query=screen+multitouch+table" title="RSS : liste de résultats"><img
+                            src="/images/rss.gif" onerror="this.parentNode.innerHTML='';" width="16" border="0" 
+                            alt="RSS : liste de résultats"/></a>
+                
+            </h1>
+        
+    
+
+
+    <div id="body">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" language="JavaScript">
+    
+    
+    var inMyDocumentsList=false;
+    
+    
+    
+</script>
+
+<script type="text/javascript">
+    function toggleFirst() {
+        var $candidates = $('.iconPatentList,.iconPatentListSelected');
+        var $nottoggled = $candidates.not('.toggled').first();
+        if (!$nottoggled.length) {
+            // All elements are toggled
+            // Remove class from all links
+            $candidates.removeClass('toggled');
+            $nottoggled = $candidates.first();
+        }
+        // Add temporary class, trigger click
+        $nottoggled.addClass('toggled').click();
+    }
+
+    // Function to handle ctrl+*
+    function toggleAll() {
+        $(".iconPatentList").click();
+        // Add temporary class
+        $(".iconPatentListSelected").addClass('toggled');
+    }
+
+    $(document).ready(function() {
+        // Handle Ctrl+* and *
+        $(document).keypress(function(e) { // CRUCIAL to use keypressed
+            var $this = $(this);
+            if (e.which === 42) { // '*'.charCodeAt(0) === 42
+                if (!$this.data('star_pressed')) {
+                    $this.data('star_pressed', true);
+                    if (e.ctrlKey) { // Ctrl + *
+                        toggleAll();
+                    } else { // Just *
+                        toggleFirst();
+                    }
+                }
+            }
+        }).keyup(function() {
+                    $(this).removeData('star_pressed');
+                });
+    });
+</script>
+
+
+
+<input id="selectedItems" type="hidden" value="null" />
+
+<div class="epoToolBar">
+    <ul class="clearfix">
+        <li class="separator separatorFirst">
+            <span class="firstFollow">|</span>
+        </li>
+
+        
+
+        
+
+        
+
+        <a href="#" onblur="removeFocusAnchors();" style="outline: 0;" id="secondFocusableElement"></a>
+        <li class="floatRight lastItem">
+            <a href="#" onclick="window.print(); return false;" class="prt" title="Imprimer" accesskey="p">
+                Imprimer
+            </a>
+        </li>
+
+        
+            
+        
+
+    </ul>
+</div>
+
+<div id="captchaDialog" title="espacenet vérification"></div>
+
+
+<iframe name="savePdf" class="hiddenFrame noPrint" height="5" width="5"></iframe>
+        <div class="epoBar epoBarFilter printFilter">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="primary">
+    <div class="epoBarItem wordBreakDiv">
+        <p>
+        
+        0 résultats trouvés dans la base de données Worldwide pour :
+        
+        </p>
+        <p>
+        
+           <strong>(txt = screen and txt = multitouch) and txt = table
+	                </strong> en utilisant la "SmartSearch"
+           
+        </p>
+        
+    </div>
+</div>
+
+            
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="primary">
+    <div class="epoBarItem wordBreakDiv">
+
+        
+        
+
+        
+        
+    </div>
+</div>
+
+<div class="secondary noPrint">
+	
+	
+</div>
+
+
+        </div>
+        
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/5_8_15_10/scripts/espacenet.sorting.js"></script>
+
+
+
+<form id="sortForm" action="#">
+    <input id="baseSortUrl" name="baseSortUrl" type="hidden" value="/searchResults?DB=worldwide.espacenet.com&amp;ST=singleline&amp;compact=false&amp;locale=fr_FR&amp;query=screen+multitouch+table"/>
+
+    <div class="epoBar epoBarSort noPrint">
+        <div class="primary">
+            
+                
+                
+                    
+                    
+                
+            
+        </div>
+        <div class="secondary">
+        </div>
+    </div>
+</form>
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+<form action="deliberatelyEmpty">
+    <div class="modSearchResult">
+     <table class="application">
+        <tbody>
+	        
+	        
+        </tbody>
+    </table>
+  </div>
+</form>
+
+        
+        
+        
+    </div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+
+<!--[if IE]><div class="clearbreak">&nbsp;</div><![endif]-->
+<div id="epoFooter">
+    <ul>
+        <li>
+<a href="/?locale=fr_FR&amp;view=sitemap" target="_self">Sitemap</a>
+</li>
+<li>
+<a href="http://www.epo.org/metanav/accessibility_fr.html" target="_blank">Accessibilité</a>
+</li>
+<li>
+<a href="http://www.epo.org/etc/imprint_fr.html" target="_blank">Adresse bibliographique</a>
+</li>
+<li>
+<a href="http://www.epo.org/etc/termsofuse_fr.html" target="_blank">Conditions d’utilisation</a>
+</li>
+<li>Dernière mise à jour: 11.12.2013</li>
+
+        
+            <li>Worldwide Base de données</li>
+        
+        <li>5.8.15.10; 93p</li>
+    </ul>
+</div>
+
+</div>
+
+
+</body>
+</html>
