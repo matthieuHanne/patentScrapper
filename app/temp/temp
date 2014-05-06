@@ -141,7 +141,7 @@
                    
                      
                    <li li_attributes >
-                    <a title="Deutsch auswählen" href="http://fr.espacenet.com/e/searchResults?locale=fr_FR&amp;ST=singleline&amp;compact=false&amp;query=screen+multitouch+table&amp;DB=fr.espacenet.com" class=&#034;sel&#034; > Français</a>
+                    <a title="Deutsch auswählen" href="http://fr.espacenet.com/e/searchResults?locale=fr_FR&amp;ST=singleline&amp;compact=false&amp;query=tactile+touchscreen+multitouch&amp;DB=fr.espacenet.com" class=&#034;sel&#034; > Français</a>
                    </li>
                   
                    
@@ -335,7 +335,7 @@
             
                 
                     
-                        <li class="bendractive"><a href="http://fr.espacenet.com/e/searchResults?compact=false&ST=singleline&query=screen+multitouch+table&DB=fr.espacenet.com&locale=fr_FR">Liste de résultats</a></li>
+                        <li class="bendractive"><a href="http://fr.espacenet.com/e/searchResults?compact=false&ST=singleline&query=tactile+touchscreen+multitouch&DB=fr.espacenet.com&locale=fr_FR">Liste de résultats</a></li>
                     
                     
                 
@@ -386,7 +386,7 @@
 	                   <li class="firstChild">
 		                                 
 		                       
-		                           <a id="breadcrumb0" href="http://fr.espacenet.com/singleLineSearch?compact=false&bcId=0&ST=singleline&query=screen+multitouch+table&DB=fr.espacenet.com&REF=yes&locale=fr_FR">Rechercher</a>
+		                           <a id="breadcrumb0" href="http://fr.espacenet.com/singleLineSearch?compact=false&bcId=0&ST=singleline&query=tactile+touchscreen+multitouch&DB=fr.espacenet.com&REF=yes&locale=fr_FR">Rechercher</a>
 		                       
 		                       
 		                   
@@ -558,7 +558,7 @@
               
                   
                   
-                  <li><a href="/e/help;jsessionid=5FDA3A6DA49CAFC7F368F389B78C90DB?quickHelpPage=resultslistExtended.1&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, cliquez sur l&#039;icône RSS pour transformer l&#039;URL de la liste de résultats en flux accessible à partir du client RSS installé sur votre ordinateur. Chaque clic crée un nouveau flux RSS." class="int">Puis-je m'abonner à un flux RSS sur la liste de résultats ?</a></li>
+                  <li><a href="/e/help;jsessionid=87BD74DE8E05A59C982CBECE7B3536E9?quickHelpPage=resultslistExtended.1&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, cliquez sur l&#039;icône RSS pour transformer l&#039;URL de la liste de résultats en flux accessible à partir du client RSS installé sur votre ordinateur. Chaque clic crée un nouveau flux RSS." class="int">Puis-je m'abonner à un flux RSS sur la liste de résultats ?</a></li>
                  
               
                   
@@ -571,7 +571,7 @@
               
                   
                   
-                  <li><a href="/e/help;jsessionid=5FDA3A6DA49CAFC7F368F389B78C90DB?quickHelpPage=resultslistExtended.2&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Le lecteur RSS vérifie régulièrement le flux auquel vous vous êtes abonné (URL), télécharge toutes les mises à jour trouvées et affiche une interface utilisateur qui vous permet de contrôler et de lire les flux." class="int">Comment le lecteur RSS intervient-il au niveau de la liste de résultats ?</a></li>
+                  <li><a href="/e/help;jsessionid=87BD74DE8E05A59C982CBECE7B3536E9?quickHelpPage=resultslistExtended.2&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Le lecteur RSS vérifie régulièrement le flux auquel vous vous êtes abonné (URL), télécharge toutes les mises à jour trouvées et affiche une interface utilisateur qui vous permet de contrôler et de lire les flux." class="int">Comment le lecteur RSS intervient-il au niveau de la liste de résultats ?</a></li>
                  
               
                   
@@ -584,7 +584,7 @@
               
                   
                   
-                  <li><a href="/e/help;jsessionid=5FDA3A6DA49CAFC7F368F389B78C90DB?quickHelpPage=resultslistExtended.3&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui. Toutes les listes (&#034;Ma liste de résultats&#034;, etc...) peuvent être exportées au format CSV dans Excel. Il suffit de cliquer &#034;Exporter&#034; puis enregistrer." class="int">Puis-je exporter cette liste de résultats ?</a></li>
+                  <li><a href="/e/help;jsessionid=87BD74DE8E05A59C982CBECE7B3536E9?quickHelpPage=resultslistExtended.3&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui. Toutes les listes (&#034;Ma liste de résultats&#034;, etc...) peuvent être exportées au format CSV dans Excel. Il suffit de cliquer &#034;Exporter&#034; puis enregistrer." class="int">Puis-je exporter cette liste de résultats ?</a></li>
                  
               
                   
@@ -597,7 +597,7 @@
               
                   
                   
-                  <li><a href="/e/help;jsessionid=5FDA3A6DA49CAFC7F368F389B78C90DB?quickHelpPage=resultslistExtended.4&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Il n&#039;est pas toujours possible, immédiatement après la recherche, de connaître exactement le nombre de résultats. Une estimation est alors indiquée, en règle générale légèrement supérieure au nombre exact." class="int">Pourquoi le nombre de résultats est-il parfois « approximatif » ?</a></li>
+                  <li><a href="/e/help;jsessionid=87BD74DE8E05A59C982CBECE7B3536E9?quickHelpPage=resultslistExtended.4&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Il n&#039;est pas toujours possible, immédiatement après la recherche, de connaître exactement le nombre de résultats. Une estimation est alors indiquée, en règle générale légèrement supérieure au nombre exact." class="int">Pourquoi le nombre de résultats est-il parfois « approximatif » ?</a></li>
                  
               
                   
@@ -610,7 +610,7 @@
               
                   
                   
-                  <li><a href="/e/help;jsessionid=5FDA3A6DA49CAFC7F368F389B78C90DB?quickHelpPage=resultslistExtended.5&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Ce nombre de 500 a été limité volontairement. Si vos résultats sont trop nombreux, vous devez affiner votre recherche." class="int">Pourquoi la liste de résultats affiche-t-elle seulement 500 réponses ?</a></li>
+                  <li><a href="/e/help;jsessionid=87BD74DE8E05A59C982CBECE7B3536E9?quickHelpPage=resultslistExtended.5&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Ce nombre de 500 a été limité volontairement. Si vos résultats sont trop nombreux, vous devez affiner votre recherche." class="int">Pourquoi la liste de résultats affiche-t-elle seulement 500 réponses ?</a></li>
                  
               
                   
@@ -623,7 +623,7 @@
               
                   
                   
-                  <li><a href="/e/help;jsessionid=5FDA3A6DA49CAFC7F368F389B78C90DB?quickHelpPage=resultslistExtended.6&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the highlighting by selecting or deselecting the relevant box under the Settings tab." class="int">Can I deactivate the highlighting?</a></li>
+                  <li><a href="/e/help;jsessionid=87BD74DE8E05A59C982CBECE7B3536E9?quickHelpPage=resultslistExtended.6&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the highlighting by selecting or deselecting the relevant box under the Settings tab." class="int">Can I deactivate the highlighting?</a></li>
                  
               
                   
@@ -636,7 +636,7 @@
               
                   
                   
-                  <li><a href="/e/help;jsessionid=5FDA3A6DA49CAFC7F368F389B78C90DB?quickHelpPage=resultslistExtended.7&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Désormais, espacenet n&#039;affiche qu&#039;un seul document par jeu d&#039;équivalents, évitant ainsi d&#039;obtenir des doublons dans la liste de résultats." class="int">Pourquoi ai-je parfois moins de résultats qu'avec l'ancien espacenet ?</a></li>
+                  <li><a href="/e/help;jsessionid=87BD74DE8E05A59C982CBECE7B3536E9?quickHelpPage=resultslistExtended.7&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Désormais, espacenet n&#039;affiche qu&#039;un seul document par jeu d&#039;équivalents, évitant ainsi d&#039;obtenir des doublons dans la liste de résultats." class="int">Pourquoi ai-je parfois moins de résultats qu'avec l'ancien espacenet ?</a></li>
                  
               
                   
@@ -649,7 +649,7 @@
               
                   
                   
-                  <li><a href="/e/help;jsessionid=5FDA3A6DA49CAFC7F368F389B78C90DB?quickHelpPage=resultslistExtended.8&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, vous pouvez trier la liste de résultats par date de mise à jour, date de priorité, nom d&#039;inventeur, nom de déposant et par code de classification ECLA dans la limite de 500 documents trouvés." class="int">Puis-je trier cette liste de résultats ?</a></li>
+                  <li><a href="/e/help;jsessionid=87BD74DE8E05A59C982CBECE7B3536E9?quickHelpPage=resultslistExtended.8&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, vous pouvez trier la liste de résultats par date de mise à jour, date de priorité, nom d&#039;inventeur, nom de déposant et par code de classification ECLA dans la limite de 500 documents trouvés." class="int">Puis-je trier cette liste de résultats ?</a></li>
                  
               
                   
@@ -662,7 +662,7 @@
               
                   
                   
-                  <li><a href="/e/help;jsessionid=5FDA3A6DA49CAFC7F368F389B78C90DB?quickHelpPage=resultslistExtended.9&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Un document XP est un document de la littérature non brevet qui a été classé et/ou cité dans un rapport de recherche effectué par l&#039;OEB." class="int">Qu'est-ce qu'un document XP ?</a></li>
+                  <li><a href="/e/help;jsessionid=87BD74DE8E05A59C982CBECE7B3536E9?quickHelpPage=resultslistExtended.9&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Un document XP est un document de la littérature non brevet qui a été classé et/ou cité dans un rapport de recherche effectué par l&#039;OEB." class="int">Qu'est-ce qu'un document XP ?</a></li>
                  
               
                   
@@ -675,7 +675,7 @@
               
                   
                   
-                  <li><a href="/e/help;jsessionid=5FDA3A6DA49CAFC7F368F389B78C90DB?quickHelpPage=resultslistExtended.10&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the query history by selecting or deselecting the relevant box under the Settings tab." class="int">Can I save my query?</a></li>
+                  <li><a href="/e/help;jsessionid=87BD74DE8E05A59C982CBECE7B3536E9?quickHelpPage=resultslistExtended.10&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the query history by selecting or deselecting the relevant box under the Settings tab." class="int">Can I save my query?</a></li>
                  
               
               </ul>
@@ -724,7 +724,7 @@ var PAGE_MESSAGE = 'page';//'Page';
     <h1>
         LISTE DES RESULTATS
         
-            <a href="http://fr.espacenet.com/websyndication/searchFeed?compact=false&amp;ST=singleline&amp;query=screen+multitouch+table&amp;DB=fr.espacenet.com&amp;locale=fr_FR" title="RSS : liste de résultats"><img src="/images/rss.gif" width="16" border="0" alt="" /></a>
+            <a href="http://fr.espacenet.com/websyndication/searchFeed?compact=false&amp;ST=singleline&amp;query=tactile+touchscreen+multitouch&amp;DB=fr.espacenet.com&amp;locale=fr_FR" title="RSS : liste de résultats"><img src="/images/rss.gif" width="16" border="0" alt="" /></a>
         
     </h1>
     <div id="body">
@@ -760,10 +760,63 @@ var PAGE_MESSAGE = 'page';//'Page';
         </li>
         
         
+            
+            <li> 
+                <input id="downloadCheck" type="checkbox" onclick="toggleSelectAll('downloadCheck');">
+                <label for="downloadCheck" onclick="toggleSelectAll('downloadCheck');">Tout sélectionner</label>
+            </li>
+            
+            <li class="separator">
+                <span class="firstFollow">|</span>
+            </li>
+        
+		        <li>
+		            
+		
+		            
+		                
+		                    <a class="normLstRes" name="compactLink" id="compactLink" href="/e/searchResults;jsessionid=87BD74DE8E05A59C982CBECE7B3536E9?compact=true&amp;page=0&amp;ST=singleline&amp;query=tactile+touchscreen+multitouch&amp;locale=fr_FR&amp;DB=fr.espacenet.com" onclick="return toggleCompact(this);">
+		                       Compact
+		                    </a>
+		                
+		                
+		            
+		        </li>
+ 
+            <li class="separator">
+                <span class="firstFollow">|</span>
+            </li>
 
+            <li>
+                <a href="/exportResultsList" class="xpt" title="Exporter">
+                    Exporter
+                </a>
+                &nbsp;(&nbsp;<a style="margin-left:0; padding-left:0" href="/exportResultsList">CSV</a>&nbsp;|&nbsp;<a style="margin-left:0; padding-left:0" href="/exportExcelResultsList">XLS</a>&nbsp;)
+            </li>
+
+            
+                
+                <li class="separator">
+                    <span class="firstFollow">|</span>
+                </li>
+
+                <li> 
+                    <span id="downloadPdfAction">
+                        <a class="download" onclick="return downloadPDF(this)" href="/downloadCovers?locale=fr_FR&popup=true" target="savePdf">
+                            Télécharger 1ère page&nbsp;(<span id="selectedPfdCount">0</span>)
+                        </a>
+                    </span>
+                </li>
+            
         
 
         
+
+        
+	        <li class="separator">
+	            <span class="firstFollow">|</span>
+	        </li>
+	    
         
         <li class="floatRight lastItem">
             <a href="#" onclick="window.print(); return false;" class="prt" title="Imprimer">
@@ -803,7 +856,7 @@ var PAGE_MESSAGE = 'page';//'Page';
 	
 	            
 	            
-	                0 résultats trouvés dans la base de données FR pour :
+	                3 résultats trouvés dans la base de données FR pour :
 	            
 	        
         </p>
@@ -814,7 +867,7 @@ var PAGE_MESSAGE = 'page';//'Page';
 	        
 	        
 	        
-	          <strong>(txt = screen and txt = multitouch) and txt = table
+	          <strong>(txt = tactile and txt = touchscreen) and txt = multitouch
 	                </strong> en utilisant la "SmartSearch"        
 	                
 	          
@@ -873,15 +926,75 @@ var PAGE_MESSAGE = 'page';//'Page';
 
 
 <form id="sortForm" action="#">
-    <input id="baseSortUrl" name="baseSortUrl" type="hidden" value="http://fr.espacenet.com/e/searchResults?compact=false&ST=singleline&query=screen+multitouch+table&DB=fr.espacenet.com&locale=fr_FR" />
+    <input id="baseSortUrl" name="baseSortUrl" type="hidden" value="http://fr.espacenet.com/e/searchResults?compact=false&ST=singleline&query=tactile+touchscreen+multitouch&DB=fr.espacenet.com&locale=fr_FR" />
     <div class="epoBar epoBarSort noPrint">
          <div class="primary">
              
                
+		             <div class="epoBarItem epoBarItemForm">
+		                 <div class="formElement">
+		                     <label for="sortBy">Trier par</label>
+		                     <span class="select" style="width:150px;">
+		                         <select style="width:150px;" name="sortBy" id="sortBy" >
+		                             
+		                                  
+		                                  
+		                                  
+		                                      <option value="pd">Date de chargement</option>
+		                                  
+		                                  
+		                              
+		                                  
+		                                  
+		                                  
+		                                      <option value="prd">Date de priorité</option>
+		                                  
+		                                  
+		                              
+		                                  
+		                                  
+		                                  
+		                                      <option value="in">Inventeur</option>
+		                                  
+		                                  
+		                              
+		                                  
+		                                  
+		                                  
+		                                      <option value="pa">Demandeur</option>
+		                                  
+		                                  
+		                              
+		                         </select>
+		                     </span>
+		                 </div>
+		             </div>
+		             <div class="epoBarItem epoBarItemForm">
+		                 <div class="formElement">
+		                     <label for="sortOrder">Ordre de tri</label>
+		                     <span class="select" style="width:150px;">
+		                         
+		                         <select style="width:150px;" name="sortOrder" id="sortOrder">
+		                             
+		                              
+		                              
+		                                  <option value="ascending">Ascending</option>
+                                          <option value="descending" selected="selected">Descending</option>
+		                              
+		                              
+		                         </select>
+		                     </span>
+		                 </div>
+		             </div>
+		            <div class="epoBarItem epoBarItemForm">
+		                 <div class="formElement">
+		                     <span class="inputsubmit">
+		                         <input type="submit" class="submit" value="Sort" onclick="return submitSort();"/>
+		                     </span>
+		                 </div>
+		             </div>
 		     
-                  
-                  
-               
+		     
             
             </div>
          <div class="secondary">
@@ -905,6 +1018,607 @@ var PAGE_MESSAGE = 'page';//'Page';
      <table class="application">
         <tbody>
 	        
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="EP2310933A1;EP2310933" onclick="updateSelectedDocumentCount()" />
+                1.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20110420&amp;CC=EP&amp;NR=2310933A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            ÉCRAN <span class="highlight">TACTILE</span> MULTIPOINT INCORPORANT UN SUIVI DE STYLO
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_EP2310933A1;EP2310933" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                BRANDL PETER
+                                
+                                
+                                    <br />
+                                
+                                
+                            
+                                
+                                DORAY BERNARD
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+                            (+6)
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                NORTEL NETWORKS LTD []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                G06F3/033<br>G06F3/041<br>G06F3/042
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                EP2310933&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2011-04-20
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2008-07-07
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="WO2009053492A1;WO2009053492" onclick="updateSelectedDocumentCount()" />
+                2.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20090430&amp;CC=WO&amp;NR=2009053492A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            ECRANS OU PAVÉS <span class="highlight">TACTILE</span>S =" SINGLE" TOUCH =" OU" =" <span class="highlight">MULTITOUCH</span>"=" COMPOS"ÉS D'UN SYSTÈME DE CAPTEURS DE PRESSION ET FABRICATION DE TELS CAPTEURS
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_WO2009053492A1;WO2009053492" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                MERIAC MILOSCH
+                                
+                                
+                                    <br />
+                                
+                                
+                            
+                                
+                                STEINHAUSER ANDREAS
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                MERIAC MILOSCH []
+                                
+                                
+                                    <br />
+                                
+                                
+                            
+                                
+                                STEINHAUSER ANDREAS []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                G06F3/041
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                WO2009053492&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2009-04-30
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2007-10-26
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
+	        
+	            
+	               
+	               
+	                  
+			            
+			            
+			            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    <tr>
+        <th colspan="7">
+            <span class="resNumber">
+                <input type="checkbox" class="chck noPrint" title="sélectionner" name="selectedDocuments"
+                    value="WO2013056912A1;WO2013056912" onclick="updateSelectedDocumentCount()" />
+                3.&nbsp;
+	            <a href="/publicationDetails/biblio?DB=fr.espacenet.com&amp;adjacent=true&amp;locale=fr_FR&amp;FT=D&amp;date=20130425&amp;CC=WO&amp;NR=2013056912A1&amp;KC=A1">
+	                
+	                    
+	                    
+	                        
+	                            INTERFACE UTILISATEUR ET PROCÉDÉ POUR RÉGLER AU MOINS UNE GRANDEUR DE RÉFÉRENCE D'UNE INSTALLATION TECHNIQUE
+
+	                        
+	                        
+	                    
+	                
+	            </a>
+            </span>
+        </th>
+    </tr>
+
+    <tr>
+        
+            
+                <td class="resLstIco noPrint"">
+                    
+                        
+                            <a title="Ajouter à ma liste de brevets" id="myDoc_WO2013056912A1;WO2013056912" class="iconPatentList" href="#"
+                                onclick="if (window.toggleLinkCheck) return toggleLinkCheck(this, 'EPODOC', 'fr_FR')">
+                                
+                            </a>
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Inventeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                BUTSCHER SIMON
+                                
+                                
+                                    <br />
+                                
+                                
+                            
+                                
+                                MUELLER JENS
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+                            (+1)
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Demandeur :</h4>
+                    
+                        
+                        
+                        
+
+                        
+                        
+                            
+                            
+                                
+                                BUTSCHER SIMON []
+                                
+                                
+                                    <br />
+                                
+                                
+                            
+                                
+                                MUELLER JENS []
+                                
+                                
+                                
+                            
+                        
+
+                        
+                        
+                            (+2)
+                        
+
+                        
+                        
+                        
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>CE</h4>
+                    
+                </td>
+
+                <td>
+                    <h4>CIB :</h4>
+                    
+                        
+                            
+                            
+                                G06F3/0484
+                                
+                                
+                                
+                                
+                            
+                        
+                    
+                </td>
+
+                <td>
+                    <h4>Publication :</h4>
+                    
+                        
+                            
+                                
+                                WO2013056912&nbsp;(A1)
+                                
+                                    <br />
+                                    
+                                        2013-04-25
+                                    
+                                
+                            
+                        
+
+                        
+                    
+                </td>
+
+                <td class="nowrap">
+                    <h4>Date de priorité :</h4>
+                    2011-10-19
+                </td>
+            
+
+            
+        
+    </tr>
+
+
+
+	               
+	            
 	        
         </tbody>
     </table>

@@ -19,9 +19,15 @@ def get():
 	cur.execute(request1)
 	item =cur.fetchone()
 	keywords=[]
+	old_keyword=str(item[1])
 	while item:
-		keywords+=[""+item[1]+""]
+		new_keyword=str(item[1])
+		if old_keyword!=new_keyword :
+			keywords+=[""+new_keyword+""]
+			old_keyword=new_keyword
 		item=cur.fetchone()
 	return keywords
 
-get()
+
+
+

@@ -19,8 +19,10 @@ def Scrap(mail,export_arg,keywords,databases):
 			scrap_espace_word.scrap_multi_keyword(keywords,"scrap")
 		elif i=='a':
 			scrap_all_espace.scrap_multi_keyword(keywords,data_all,"scrap")
-	export_to_xml.export(export_arg,1)
-	my_mail.send_mail(mail,keywords,1)
+	fileid=time.time()
+        fileid=('%.*f' % (0, fileid))[:-1]
+	export_to_xml.export(export_arg,fileid)
+	my_mail.send_mail(mail,keywords,fileid)
 
 def GetKeywordsFromGlobalDatabase() :
 	return getkeyword.get()
@@ -47,8 +49,8 @@ def GetNumber(keywords):
 	return result
 mail = "benedict.hanser@gmail.com"
 export = "ik"
-keywords=["tactile+touchscreen+multitouch","ecran+tactile+projection","tactile+screen+table+projection","screen+multitouch+table"]
+keywordss=["tactile+touchscreen+multitouch","ecran+tactile+projection","tactile+screen+table+projection","screen+multitouch+table"]
 databases = "fw"
 data_all=["f","wo","ep","lu","es"]
-Scrap(mail,export,keywords,databases)
+#Scrap(mail,export,keywords,databases)
 #GetGlobalDatabase(export,mail)

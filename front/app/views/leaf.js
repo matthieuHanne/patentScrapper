@@ -21,38 +21,30 @@ define(['backbone'],
                 },
                 'startSearch' : function(event){
                     //Prepare request content
-                    var keys=[]; 
+                    var keys=''; 
                     var param='';
                     var bdd='';
-                    $('.keyword').each(function(){keys.push($(this).val())});
+                    $('.keyword').each(function(){keys+=$(this).val()+' '});
                     $('.param').each(function(){if($(this).prop('checked')) param+=$(this).val()});
                     $('.bdd').each(function(){if($(this).prop('checked')) bdd+=$(this).val()});
                     //Send get request
-                    $.getJSON(App.config.apiUrl+'/patentapi/export', {
-                        keywords: keys, args: param, mail: this.$el.find('#mail').val()
-                    }, function(data) {
-                        $("#result").text(data.result);
-                    });
-                    return false;
+                    $.post(App.config.apiUrl+'/patentapi/export',
+                    {keywords: keys, args: param, mail: this.$el.find('#mail').val()},
+                    function(data){console.log(data.result)});
                 },
                 'startCrawl' : function(event){
                     //Prepare request content
-                    var keys=[]; 
+                    var keys=''; 
                     var param='';
                     var bdd='';
-                    $('.keyword').each(function(){keys.push($(this).val());});
-                    $('.param').each(function(){if($(this).prop('checked')){
-                        param+=$(this).val();
-                    }
-                    });
-                    $('.bdd').each(function(){if($(this).prop('checked'))bdd+=$(this).val();});
+                    $('.keyword').each(function(){keys+=$(this).val()+' '});
+                    $('.param').each(function(){if($(this).prop('checked')) param+=$(this).val()});
+                    $('.bdd').each(function(){if($(this).prop('checked')) bdd+=$(this).val()});
                     //Send get request
-                    $.getJSON( App.config.apiUrl+'/patentapi/crawl', {
-                        keywords: keys, args: param, mail: this.$el.find('#mail').val()
-                    }, function(data) {
-                        $("#result").text(data.result);
-                    });
-                    return false;
+                    $.post(App.config.apiUrl+'/patentapi/crawl',
+                    {keywords: keys, export_config: param, mail_to: this.$el.find('#email').val(), databases: bdd},
+                    function(data){console.log(data.result)});
+
                 }
             });
 

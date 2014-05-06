@@ -1,7 +1,7 @@
-from flask import Flask
-from flask import request 
+from flask import Flask, jsonify
+from flask import request
 import scrap_bessif_launcher
-import json
+
 from datetime import timedelta
 from flask import make_response, current_app
 from functools import update_wrapper
@@ -60,24 +60,25 @@ def crossdomain(origin=None, methods=None, headers=None,
     return decorator
 
 
-@app.route('/crawl', methods=['POST'])
+@app.route('/patentapi/crawl', methods=['POST'])
 @crossdomain(origin='*')
 def crawl():
-	keywords = request.form['keywords'].split()
-	export_config = request.form['export_config'].split()
-	mail_addr= request.form['mail_to']
-	databases = request.form['databases'].split() 
-	scrap_bessif_launcher.Scrap(mail_addr,export_config,keywords,databases)
-	return 'test:)'
+    keywords = str(request.form['keywords']).split()
+    export_config = str(request.form['export_config'])
+    mail_addr= str(request.form['mail_to'])
+    databases = str(request.form['databases'])
+    scrap_bessif_launcher.Scrap(mail_addr,export_config,keywords,databases)
+    return "Mail send - scraped data "
 
 @app.route('/patentapi/export', methods=['POST'])
 @crossdomain(origin='*')
 def export():
-	export_config = request.json['args'].encode('ascii','ignore')
-	mail = request.json['mail'].encode('ascii','ignore')
-	print export_config
-	print mail 
-	scrap_bessif_launcher.GetGlobalDatabase(export_config,mail)
+    export_config = str(request.form['args'])
+    mail = str(request.form['mail'])
+    print export_config
+    print mail
+    scrap_bessif_launcher.GetGlobalDatabase(export_config,mail)
+    return "Mail send - simple export"
 
 @app.route('/number', methods=['POST'])
 def getnumber():
