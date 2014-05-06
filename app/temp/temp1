@@ -203,7 +203,7 @@
                    
                      
                    <li class="last">
-                    <a title="Deutsch auswählen" href="/searchResults;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?locale=fr_FR&amp;compact=false&amp;ST=singleline&amp;query=screen+multitouch+table&amp;DB=worldwide.espacenet.com" class="sel" > Français</a>
+                    <a title="Deutsch auswählen" href="/searchResults;jsessionid=D173D3E56D0957E7D17CFD32F5FFF4B2.espacenet_levelx_prod_3?locale=fr_FR&amp;compact=false&amp;ST=singleline&amp;query=screen+multitouch+table&amp;DB=worldwide.espacenet.com" class="sel" > Français</a>
                    </li>
                   
                    
@@ -618,7 +618,7 @@
               
                   
                   
-                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.1&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, cliquez sur l&#039;icône RSS pour transformer l&#039;URL de la liste de résultats en flux accessible à partir du client RSS installé sur votre ordinateur. Chaque clic crée un nouveau flux RSS." class="int">Puis-je m'abonner à un flux RSS sur la liste de résultats ?</a></li>
+                  <li><a href="/help;jsessionid=D173D3E56D0957E7D17CFD32F5FFF4B2.espacenet_levelx_prod_3?quickHelpPage=resultslistExtended.1&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, cliquez sur l&#039;icône RSS pour transformer l&#039;URL de la liste de résultats en flux accessible à partir du client RSS installé sur votre ordinateur. Chaque clic crée un nouveau flux RSS." class="int">Puis-je m'abonner à un flux RSS sur la liste de résultats ?</a></li>
                  
               
                   
@@ -631,7 +631,7 @@
               
                   
                   
-                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.2&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Le lecteur RSS vérifie régulièrement le flux auquel vous vous êtes abonné (URL), télécharge toutes les mises à jour trouvées et affiche une interface utilisateur qui vous permet de contrôler et de lire les flux." class="int">Comment le lecteur RSS intervient-il au niveau de la liste de résultats ?</a></li>
+                  <li><a href="/help;jsessionid=D173D3E56D0957E7D17CFD32F5FFF4B2.espacenet_levelx_prod_3?quickHelpPage=resultslistExtended.2&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Le lecteur RSS vérifie régulièrement le flux auquel vous vous êtes abonné (URL), télécharge toutes les mises à jour trouvées et affiche une interface utilisateur qui vous permet de contrôler et de lire les flux." class="int">Comment le lecteur RSS intervient-il au niveau de la liste de résultats ?</a></li>
                  
               
                   
@@ -644,7 +644,7 @@
               
                   
                   
-                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.3&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui. Toutes les listes (&#034;Ma liste de résultats&#034;, etc...) peuvent être exportées au format CSV dans Excel. Il suffit de cliquer &#034;Exporter&#034; puis enregistrer." class="int">Puis-je exporter cette liste de résultats ?</a></li>
+                  <li><a href="/help;jsessionid=D173D3E56D0957E7D17CFD32F5FFF4B2.espacenet_levelx_prod_3?quickHelpPage=resultslistExtended.3&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui. Toutes les listes (&#034;Ma liste de résultats&#034;, etc...) peuvent être exportées au format CSV dans Excel. Il suffit de cliquer &#034;Exporter&#034; puis enregistrer." class="int">Puis-je exporter cette liste de résultats ?</a></li>
                  
               
                   
@@ -657,7 +657,7 @@
               
                   
                   
-                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.4&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Il n&#039;est pas toujours possible, immédiatement après la recherche, de connaître exactement le nombre de résultats. Une estimation est alors indiquée, en règle générale légèrement supérieure au nombre exact." class="int">Pourquoi le nombre de résultats est-il parfois « approximatif » ?</a></li>
+                  <li><a href="/help;jsessionid=D173D3E56D0957E7D17CFD32F5FFF4B2.espacenet_levelx_prod_3?quickHelpPage=resultslistExtended.4&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Il n&#039;est pas toujours possible, immédiatement après la recherche, de connaître exactement le nombre de résultats. Une estimation est alors indiquée, en règle générale légèrement supérieure au nombre exact." class="int">Pourquoi le nombre de résultats est-il parfois « approximatif » ?</a></li>
                  
               
                   
@@ -670,7 +670,7 @@
               
                   
                   
-                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.5&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Ce nombre de 500 a été limité volontairement. Si vos résultats sont trop nombreux, vous devez affiner votre recherche." class="int">Pourquoi la liste de résultats affiche-t-elle seulement 500 réponses ?</a></li>
+                  <li><a href="/help;jsessionid=D173D3E56D0957E7D17CFD32F5FFF4B2.espacenet_levelx_prod_3?quickHelpPage=resultslistExtended.5&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Ce nombre de 500 a été limité volontairement. Si vos résultats sont trop nombreux, vous devez affiner votre recherche." class="int">Pourquoi la liste de résultats affiche-t-elle seulement 500 réponses ?</a></li>
                  
               
                   
@@ -683,7 +683,7 @@
               
                   
                   
-                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.6&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the highlighting by selecting or deselecting the relevant box under the Settings tab." class="int">Can I deactivate the highlighting?</a></li>
+                  <li><a href="/help;jsessionid=D173D3E56D0957E7D17CFD32F5FFF4B2.espacenet_levelx_prod_3?quickHelpPage=resultslistExtended.6&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the highlighting by selecting or deselecting the relevant box under the Settings tab." class="int">Can I deactivate the highlighting?</a></li>
                  
               
                   
@@ -696,7 +696,7 @@
               
                   
                   
-                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.7&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Désormais, espacenet n&#039;affiche qu&#039;un seul document par jeu d&#039;équivalents, évitant ainsi d&#039;obtenir des doublons dans la liste de résultats." class="int">Pourquoi ai-je parfois moins de résultats qu'avec l'ancien espacenet ?</a></li>
+                  <li><a href="/help;jsessionid=D173D3E56D0957E7D17CFD32F5FFF4B2.espacenet_levelx_prod_3?quickHelpPage=resultslistExtended.7&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Désormais, espacenet n&#039;affiche qu&#039;un seul document par jeu d&#039;équivalents, évitant ainsi d&#039;obtenir des doublons dans la liste de résultats." class="int">Pourquoi ai-je parfois moins de résultats qu'avec l'ancien espacenet ?</a></li>
                  
               
                   
@@ -709,7 +709,7 @@
               
                   
                   
-                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.8&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, vous pouvez trier la liste de résultats par date de mise à jour, date de priorité, nom d&#039;inventeur, nom de déposant et par code de classification ECLA dans la limite de 500 documents trouvés." class="int">Puis-je trier cette liste de résultats ?</a></li>
+                  <li><a href="/help;jsessionid=D173D3E56D0957E7D17CFD32F5FFF4B2.espacenet_levelx_prod_3?quickHelpPage=resultslistExtended.8&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Oui, vous pouvez trier la liste de résultats par date de mise à jour, date de priorité, nom d&#039;inventeur, nom de déposant et par code de classification ECLA dans la limite de 500 documents trouvés." class="int">Puis-je trier cette liste de résultats ?</a></li>
                  
               
                   
@@ -722,7 +722,7 @@
               
                   
                   
-                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.9&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Un document XP est un document de la littérature non brevet qui a été classé et/ou cité dans un rapport de recherche effectué par l&#039;OEB." class="int">Qu'est-ce qu'un document XP ?</a></li>
+                  <li><a href="/help;jsessionid=D173D3E56D0957E7D17CFD32F5FFF4B2.espacenet_levelx_prod_3?quickHelpPage=resultslistExtended.9&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Un document XP est un document de la littérature non brevet qui a été classé et/ou cité dans un rapport de recherche effectué par l&#039;OEB." class="int">Qu'est-ce qu'un document XP ?</a></li>
                  
               
                   
@@ -735,7 +735,7 @@
               
                   
                   
-                  <li><a href="/help;jsessionid=CD09D84B90A8C4059C6B15513769BF46.espacenet_levelx_prod_2?quickHelpPage=resultslistExtended.10&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the query history by selecting or deselecting the relevant box under the Settings tab." class="int">Can I save my query?</a></li>
+                  <li><a href="/help;jsessionid=D173D3E56D0957E7D17CFD32F5FFF4B2.espacenet_levelx_prod_3?quickHelpPage=resultslistExtended.10&amp;locale=fr_FR&amp;method=handleQuickHelp" title="Yes. You can activate or deactivate the query history by selecting or deselecting the relevant box under the Settings tab." class="int">Can I save my query?</a></li>
                  
               
               </ul>

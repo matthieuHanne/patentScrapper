@@ -75,7 +75,7 @@ def add_brevet_to_xml ():
 		#f.write(to_write_node)
 		current_n_id = item[0]
 		item=cur.fetchone()
-	
+	current_n_id+=1	
 def export(to_export_arg,number_file):
 		
 	global current_n_id
