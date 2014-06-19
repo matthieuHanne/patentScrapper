@@ -14,55 +14,87 @@
 /* Global */
 
 html {
-	text-align: justify;
-	font-size: 62.5%;
+    text-align: justify;
+    font-size: 62.5%;
 }
 
 body {
-	color: #2d2d2d;
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 15px; font-size: 1.5rem;
-	font-weight: 300;
-	line-height: 22px;
-	/* margin-top: 60px; */
+    color: #2d2d2d;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px; font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 22px;
+    /* margin-top: 60px; */
 }
 
 h1, h2, h3, h4, h5, h6 {
-	text-align: center;;
-	font-family: "Montserrat", sans-serif;
-	font-weight: 300;
-	font-style: normal;
+    text-align: center;;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 p {
-	margin: 0 10px 10px 0;
+    margin: 0 10px 10px 0;
 }
 
 a {
-	color: #F1F1F1;
-	text-decoration: none;
+    color: #F1F1F1;
+    text-decoration: none;
 }
 
 a:hover {
-	color: #F5F5F5;
-	text-decoration: none;
+    color: #F5F5F5;
+    text-decoration: none;
 }
 
 #depth-1{
-	padding: 20px;
-	height: 100%;
-	z-index: 2;
+    padding: 20px;
+    height: 100%;
+    z-index: 2;
 }
+
+#side
+
+.overflow-hidden {
+    overflow: hidden;
+}
+.relative {
+    position: relative;
+}
+.sliding-nav {
+    z-index: auto;
+    width: 240px;
+    background-color: #393939;
+}
+.sliding-nav {
+    width: 240px;
+}
+.sliding-nav, .wrap, .toggle-nav, .tablet-nav, .table-view, .grid-view, .create-list-form, .grid-settings, .campaigns, .main, .primary-nav, .acl-menu, .brand-icon, .notify-bubble {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.175, 1) 0s;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, textarea, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    line-height: 1.5em;
+}
+
 #depth-2{
-	padding: 20px;
-	height: 100%;
-	z-index: 2;
+    padding: 20px;
+    height: 100%;
+    z-index: 2;
 }
 
 #depth-3{
-	padding: 20px;
-	height: 100%;
-	max-width: 700px;
-	z-index: 2;
+    padding: 20px;
+    height: 100%;
+    max-width: 700px;
+    z-index: 2;
 }
 

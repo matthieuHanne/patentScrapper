@@ -1,67 +1,146 @@
 <nav id="nav" class="navigation" role="navigation">
 
-<h2>C'est parti pour le DDoS !</h2>
-<p>
-C'est parti pour le spam, Le maitre mot : <strong>PARCIMONIE</strong> ! </br></br>
-Helas, cela prend du temps; un mail vous sera envoye avec les fichiers CSV en pièce jointes :).
-N'oubliez pas que ces fichiers contiendront <strong>l'ingralite</strong> de la base.
-</p>
+<h2> Configuration du scrapper</h2>
 
-<form role="form" action="#">
-	<h3>Email de reception</h3>
-	</br>
-	<div class="form-group">
-		<input type="email" class="form-control" id="email" placeholder="Enter email">
-	</div>
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Etape 1: Email de reception
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="form-group">
+                    <p>
+                    C'est parti pour le spam, Le maitre mot : <strong>PARCIMONIE</strong> ! </br></br>
+                    Helas, cela prend du temps; un mail vous sera envoye avec les fichiers CSV en pièce jointes :).
+                    N'oubliez pas que ces fichiers contiendront <strong>l'ingralité</strong> de la base.
+                    </p>
 
-	<h3>Mots clefs</h3>
 
-	<div class="form-group">
-		<div class="row keywords">
-			<div class="col-xs-3"><input type="text" class="form-control keyword" placeholder="Mots"></div>
-			<div class="col-xs-3"><input type="text" class="form-control keyword" placeholder="Mots"></div>
-			<div class="col-xs-3"><input type="text" class="form-control keyword" placeholder="Mots"></div>
-			<div class="col-xs-3"><input type="text" class="form-control keyword" placeholder="Mots"></div>
-		</div>
-		</br>
-		<button type="button" class="btn btn-primary btn-block add-keyword"><span class="glyphicon glyphicon-plus"></span></button>
-		</br>
-		</br>
-	</div>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Etape 2: Choix de la base de stockage</a> 
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="row ">
+                    <div class=col-xs-8>
+                        <h3>Choix de base</h3>
+                        <div class="form-group">
+                            <p>
+                            Après avoir entré une base, vous pouvez consulter les mots clefs sur celles-ci.
+                            </p>
+                            <input type="text" class="form-control" id="base" placeholder="base">
+                            <button class=" show-databases btn btn-block btn-danger">Consulter les mots clefs</button>
+                        </div>
+                    </div>
+                    <div class=col-xs-4>
+                        <div id="table-body">
+                            <table class="table table-bordered" id="base-table">
+                                <thead><th><h4>Bases</h4></th></thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" class ="update-keyword" href="#collapseThree">Etape 3: Mots clefs</a>
+            </a>
+        </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+        <div class="panel-body">
+            <div class="row">
+                <div class="alert alert-danger alert-base">
+                    <strong>Attention!</strong> Vous n'avez pas selectionné de base.
+                </div>
+                <div class="col-md-12">
+                    <h3>Mots clefs</h3>
 
-	<div class="row">
-		<div class="col-md-4">
-			<div class="checkbox">
-                <label><input class="bdd" type="checkbox" value="f">espacenet.fr</label>
-			</div>
-			<div class="checkbox">
-				<label><input class="bdd" type="checkbox" value="w">Worldwide</label>
-			</div>
-			<div class="checkbox">
-				<label><input class="bdd" type="checkbox" value="" disabled>Google Patent</label>
-			</div>
-			<div class="checkbox">
-				<label><input class="bdd" type="checkbox" value="" disabled>Canadienne</label>
-			</div>
-		</div>
-		<div class="col-md-8">
-			<div class="checkbox">
-				<label><input class="param" checked="checked" type="checkbox" value="i">Les inventeurs </label>
-			</div>
-			<div class="checkbox">
-				<label><input class="param" checked="checked" type="checkbox" value="d">Les demandeurs</label>
-			</div>
-			<div class="checkbox">
-				<label><input class="param" checked="checked" type="checkbox" value="c">Classifications international</label>
-			</div>
-			<div class="checkbox">
-				<label><input class="param" checked="checked" type="checkbox" value="a"> N. abrege pour</label>
-			</div>
-			<div class="checkbox">
-				<label><input class="param" checked="checked" type="checkbox" value="k">Mots clefs</label>
-			</div>
-		</div>
-		<button template="targets"  type="submit" class="btn btn-primary btn-block start-crawl">Go !</button>
-	</div>
-</form>
+                    <div class="form-group">
+                        <div class="row keywords">
+                            <div class="col-xs-6"><input type="text" class="form-control keyword" placeholder="Mots"></div>
+                            <div class="col-xs-6"><input type="text" class="form-control keyword" placeholder="Mots"></div>
+                        </div>
+                        </br>
+                        <button type="button" class="btn btn-primary btn-block add-keyword"><span class="glyphicon glyphicon-plus"></span></button>
+                        </br>
+                        </br>
+                    </div>
+
+                </div>
+         </div>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                Etape 4: Choix de cibles 
+            </a>
+        </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+        <div class="panel-body">
+            <form role="form" action="#">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Sites web</h3>
+                        <div class="checkbox">
+                            <label><input class="bdd" type="checkbox" value="f">espacenet.fr</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input class="bdd" type="checkbox" value="w">Worldwide</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input class="bdd" type="checkbox" value="" disabled>Google Patent</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input class="bdd" type="checkbox" value="" disabled>Canadienne</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Filtres</h3>
+                        <div class="checkbox">
+                            <label><input class="param" checked="checked" type="checkbox" value="i">Les inventeurs </label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input class="param" checked="checked" type="checkbox" value="d">Les demandeurs</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input class="param" checked="checked" type="checkbox" value="c">Classifications international</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input class="param" checked="checked" type="checkbox" value="a"> N. abrege pour</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input class="param" checked="checked" type="checkbox" value="k">Mots clefs</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+<button template="targets"  type="submit" class="btn btn-primary btn-block start-crawl">Go !</button>
+</div>
+
 </nav>

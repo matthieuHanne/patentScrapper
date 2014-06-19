@@ -14,7 +14,7 @@ photoname = 1
 g=open("temp/log_espace_fr.log",'wb') 
 
 
-def scrap_url(url,numberbrevet,type_file,keyword):
+def scrap_url(url,numberbrevet,type_file,keyword,number_base):
         foundbalise = 0
         error=0
         foundtitle = 0
@@ -47,7 +47,7 @@ def scrap_url(url,numberbrevet,type_file,keyword):
 	
 		if type_file == 1:
 			#fichier temporaire : page de resultat de recherche
-			f = open("temp/temp", 'wb')	
+			f = open("temp/temp_"+str(number_base), 'wb')	
 			buffer = u.read()
 			f.write(buffer)
 			f.close()
@@ -446,7 +446,7 @@ def scrap_url(url,numberbrevet,type_file,keyword):
 			# cas 3 brevet deja vu et meme keyword
 			try:	
 				
-				conn = sqlite3.connect('temp/Base_brevet.db')
+				conn = sqlite3.connect('temp/Base/Base_brevet_'+str(number_base)+'.db')
 				c = conn.cursor()
 		
 				request1 = "SELECT id from table_brevet WHERE signet='"+signet+"'"
@@ -520,7 +520,7 @@ def scrap_url(url,numberbrevet,type_file,keyword):
 
 
     		elif type_file == 3:
-
+			#compteur de brevet
 			temp = u.read()
 			number = temp.split('<div class=\"primary\">')[1].split('<p>')[1].split('r')[0][114:-1]
 			
@@ -538,12 +538,12 @@ def scrap_url(url,numberbrevet,type_file,keyword):
 
 
 
-def parcour_page(url,numberbrevet,keyword):
+def parcour_page(url,numberbrevet,keyword,number_base):
 	photoname=0
 	download_ok=0	
-	download_ok=scrap_url(url,numberbrevet,1,keyword)
+	download_ok=scrap_url(url,numberbrevet,1,keyword,number_base)
 	if download_ok :	
-		f = open("temp/temp", 'rb')
+		f = open("temp/temp_"+str(number_base), 'rb')
 		i=1
 		wk=""
 		brevet=0
@@ -581,7 +581,7 @@ def parcour_page(url,numberbrevet,keyword):
 				
 					addr="http://fr.espacenet.com/pub"+addr
 					print addr
-					scrap_url(str(addr),numberbrevet,2,keyword)
+					scrap_url(str(addr),numberbrevet,2,keyword,number_base)
 					addr=""
 					brevet=0
 			
@@ -598,7 +598,7 @@ def parcour_page(url,numberbrevet,keyword):
 					print addr
 					cmpt_newpage+=1
 					if cmpt_newpage==2:
-						parcour_page(str(addr),numberbrevet,keyword)
+						parcour_page(str(addr),numberbrevet,keyword,number_base)
 					addr=""
 					newpage=0
 				else :
@@ -607,14 +607,14 @@ def parcour_page(url,numberbrevet,keyword):
 	return numberbrevet
 
 
-def recherche (keyword,type_recherche) :
+def recherche (keyword,type_recherche,number_base) :
 	numberbrevet = 0 
 	print "let's go"
 	if type_recherche == "scrap":
-		parcour_page("http://fr.espacenet.com/searchResults?&ST=singleline&compact=false&query="+keyword+"&locale=fr_FR&DB=fr.espacenet.com",numberbrevet ,keyword)
+		parcour_page("http://fr.espacenet.com/searchResults?&ST=singleline&compact=false&query="+keyword+"&locale=fr_FR&DB=fr.espacenet.com",numberbrevet ,keyword,number_base)
 		return 0
 	elif type_recherche == "result":
-		return scrap_url("http://fr.espacenet.com/searchResults?&ST=singleline&compact=false&query="+keyword+"&locale=fr_FR&DB=fr.espacenet.com",numberbrevet,3,keyword)	
+		return scrap_url("http://fr.espacenet.com/searchResults?&ST=singleline&compact=false&query="+keyword+"&locale=fr_FR&DB=fr.espacenet.com",numberbrevet,3,keyword,number_base)	
 			
 	print "scrap done"
 	
@@ -628,10 +628,10 @@ def recherche (keyword,type_recherche) :
 
 #scrap_multi_keyword()
 
-def scrap_multi_keyword(keywords,type_recherche):
+def scrap_multi_keyword(keywords,type_recherche,number_base):
 	result = 0 	
 	for word in keywords :
-		result+=recherche(word,type_recherche)
+		result+=recherche(word,type_recherche,number_base)
 	return result
 			
 #if len(sys.argv) > 2:

@@ -10,15 +10,18 @@ from email.MIMEText import MIMEText
 from email.Utils import COMMASPACE, formatdate
 from email import Encoders
 
-def send_mail(addr , keywords,number_file):
+def send_mail(addr , keywords,number_file,type_request):
 	#assert isinstance(send_to, list)
 	#assert isinstance(files, list)
 	files=["temp/temp_node_"+str(number_file)+".csv","temp/temp_edge_"+str(number_file)+".csv"]
-	text = "Veuillez-trouvez ci-joint les fichiers les fichiers temp_node.csv et temp_edge.csv\n généré par la recherche des mots clefs suivants:\n "
-	for i in keywords : 
-		if i!='\n':
-			text+="\n\t-"+str(i)
-	text +="\n\nLes fichiers sont des fichier csv directement importable depuis Gephi .Pour ce faire  :\n\n- créz un nouveau projet\n- allez dans l\'onglet \" Data laboratory\"\n- cliquez sur \"ImportSpreadSheet\"\n- selectionnez le premier fichier cvs : temp_node_XX.csv ( attention , il faut commencer par importer le fichier de noeuds avant le fichier de liens )\n- Selectionnez \n\t- separator : comma \n\t- as table : nodes table  \n\t- Charset : UTF-8- \n- Enfin cliquez sur \"next\" puis \"finish\"\n- Faire de meme pour le fichier de lien : temp_edge.csv ( attention a bien selectionner as table : edges table)"
+	if type_request == 1:
+		text = "Veuillez-trouvez ci-joint les fichiers les fichiers temp_node.csv et temp_edge.csv\n génrés par la recherche des mots clefs suivants:\n "
+		for i in keywords : 
+			if i!='\n':
+				text+="\n\t-"+str(i)
+	elif type_request == 2:
+		text="Veuillez-trouvez ci-joint les fichiers les fichiers temp_node.csv et temp_edge.csv\n g "
+	text +="\n\nLes fichiers sont des fichier csv directement importables depuis Gephi .Pour ce faire  :\n\n- Créez un nouveau projet\n- allez dans l\'onglet \" Data laboratory\"\n- Cliquez sur \"ImportSpreadSheet\"\n- Selectionnez le premier fichier cvs : temp_node_XX.csv ( attention , il faut commencer par importer le fichier de noeuds avant le fichier de liens )\n- Selectionnez \n\t- Separator : comma \n\t- As table : nodes table  \n\t- Charset : UTF-8- \n- Enfin cliquez sur \"next\" puis \"finish\"\n- Faire de meme pour le fichier de liens : temp_edge.csv ( attention à bien selectionner as table : edges table)"
 	
 	send_to=[addr]
 	msg = MIMEMultipart()

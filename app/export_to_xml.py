@@ -76,7 +76,7 @@ def add_brevet_to_xml ():
 		current_n_id = item[0]
 		item=cur.fetchone()
 	current_n_id+=1	
-def export(to_export_arg,number_file):
+def export(to_export_arg,number_file,number_base):
 		
 	global current_n_id
 	global current_e_id
@@ -93,7 +93,7 @@ def export(to_export_arg,number_file):
 	g = open(filenames[1], 'wb')	
 
 
-	conn = sqlite3.connect("temp/Base_brevet.db")
+	conn = sqlite3.connect("temp/Base/Base_brevet_"+str(number_base)+".db")
 	cur = conn.cursor()
 	current_n_id=0
 	current_e_id=0

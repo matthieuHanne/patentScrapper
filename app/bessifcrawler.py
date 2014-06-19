@@ -67,7 +67,8 @@ def crawl():
     export_config = str(request.form['export_config'])
     mail_addr= str(request.form['mail_to'])
     databases = str(request.form['databases'])
-    scrap_bessif_launcher.Scrap(mail_addr,export_config,keywords,databases)
+    base= str(request.form['base'])
+    scrap_bessif_launcher.Scrap(mail_addr,export_config,keywords,databases, base )
     return "Mail send - scraped data "
 
 @app.route('/patentapi/export', methods=['POST'])
@@ -77,17 +78,28 @@ def export():
     mail = str(request.form['mail'])
     print export_config
     print mail
-    scrap_bessif_launcher.GetGlobalDatabase(export_config,mail)
+    base= str(request.form['base'])
+    scrap_bessif_launcher.GetGlobalDatabase(export_config,mail, base)
     return "Mail send - simple export"
 
-@app.route('/number', methods=['POST'])
+@app.route('/patentapi/number', methods=['POST'])
+@crossdomain(origin='*')
 def getnumber():
-	keywords = request.form['keywords'].split()
-	return json.dumps(scrap_bessif_launcher.GetNumber(keywords))
+    keywords = str(request.form['keywords']).split()
+    return jsonify(count=scrap_bessif_launcher.GetNumber(keywords))
 
-@app.route('/keyword', methods=['GET'])
-def GetKeyword():
-	return json.dumps(scrap_bessif_launcher.GetKeywordsFromGlobalDatabase())
+@app.route('/patentapi/keyword', methods=['POST'])
+@crossdomain(origin='*')
+def getKeyword():
+    base= str(request.form['base'])
+    keywords=scrap_bessif_launcher.GetKeywordsFromGlobalDatabase(base)
+    return jsonify(key=keywords)
+
+@app.route('/patentapi/base', methods=['GET'])
+@crossdomain(origin='*')
+def GetBases():
+	all_bases= scrap_bessif_launcher.GetListBases()
+	return jsonify(key=all_bases)
 
 if __name__ == '__main__':
 	app.run()

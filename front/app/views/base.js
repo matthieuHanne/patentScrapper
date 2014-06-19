@@ -1,6 +1,6 @@
 /* Default base view*/
 
-define(['backbone', 'bootstrap', 'text!tpl/base.html', 'text!tpl/root.html'], function(Backbone, Bootstrap, baseTpl, rootTpl){
+define(['backbone', 'text!tpl/base.html', 'text!tpl/root.html'], function(Backbone, baseTpl, rootTpl){
     'use strict';
 
     return Backbone.View.extend({
